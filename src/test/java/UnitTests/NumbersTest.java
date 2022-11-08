@@ -8,7 +8,7 @@ public class NumbersTest {
     public void sum() {
         Numbers numbers = new Numbers();
         int actual = numbers.sum(5);
-        int expected = 26;
+        int expected = 15;
         assertEquals(expected, actual);
     }
 }
